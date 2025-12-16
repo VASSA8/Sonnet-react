@@ -3,7 +3,7 @@ import './body-personal.css';
 const BodyPersonal = () => {
   return (
     <div className="body-personal">
-      <h1>Содержимое Personal</h1>
+      <h1>Содержимое Личное</h1>
     </div>
   );
 };

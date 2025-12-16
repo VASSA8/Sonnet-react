@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ваш-username.github.io/sonnet-react",
+  "homepage": "https://vassa8.github.io/sonnet-react",
   
   "scripts": {
     "dev": "vite",

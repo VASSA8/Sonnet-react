@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <script>
-    // Single Page Apps for GitHub Pages
-    (function() {
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
-</head>
-<body>
-  <noscript>
-    <h1>JavaScript is required</h1>
-    <p>Please enable JavaScript to use this application.</p>
-  </noscript>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting to SONNET</title>
+    <script>
+      // Простейший редирект
+      sessionStorage.redirect = location.href;
+      location.replace('/sonnet-react/');
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=/sonnet-react/">
+    </noscript>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/sonnet-react/">SONNET</a>...</p>
+  </body>
 </html>

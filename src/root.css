@@ -1,0 +1,96 @@
+:root {
+  /* Основные цвета фона (черные тона) */
+  --main-bg-color: #0e0e0e;
+  --secondary-bg-color: #1a1a1a;
+  --accent-bg-color: #252525;
+  
+  /* Цвета текста */
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #999999;
+  
+  /* Фиолетовые акцентные цвета */
+  --accent-color: #936eff; /* Основной фиолетовый */
+  --accent-hover: #7a4dff; /* Более насыщенный при hover */
+  --accent-light: #b294ff; /* Светлый фиолетовый */
+  --accent-dark: #6a3dcc; /* Темный фиолетовый */
+  --accent-transparent: rgba(147, 110, 255, 0.1); /* Прозрачный для фонов */
+  
+  /* Дополнительные цвета */
+  --success-color: #6aff94; /* Фиолетово-зеленый */
+  --warning-color: #ffb36a; /* Фиолетово-оранжевый */
+  --error-color: #ff6a8a; /* Фиолетово-розовый */
+  --info-color: #6ac4ff; /* Фиолетово-голубой */
+  
+  /* Границы и разделители */
+  --border-color: #333333;
+  --border-light: #404040;
+  --border-accent: rgba(147, 110, 255, 0.3); /* Фиолетовые границы */
+  
+  /* Тени с фиолетовым оттенком */
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --shadow-light: rgba(0, 0, 0, 0.2);
+  --shadow-accent: rgba(147, 110, 255, 0.25); /* Фиолетовая тень */
+  --shadow-accent-light: rgba(147, 110, 255, 0.15);
+  
+  /* Состояния с фиолетовым оттенком */
+  --hover-overlay: rgba(147, 110, 255, 0.08);
+  --active-overlay: rgba(147, 110, 255, 0.15);
+  --focus-overlay: rgba(147, 110, 255, 0.2);
+  
+  /* Скругления */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-round: 9999px;
+  
+  /* Градиенты */
+  --gradient-accent: linear-gradient(135deg, #936eff, #7a4dff);
+  --gradient-subtle: linear-gradient(135deg, rgba(147, 110, 255, 0.1), rgba(122, 77, 255, 0.05));
+  --gradient-dark: linear-gradient(135deg, #1a1a1a, #0e0e0e);
+  
+  /* Состояния элементов */
+  --disabled-color: #555555;
+  --disabled-text: #777777;
+  
+  /* Специальные фоны */
+  --surface-color: #222222;
+  --elevated-bg: #2a2a2a;
+  --card-bg: #1f1f1f;
+}
+
+/* Дополнительные варианты фиолетовых оттенков */
+.purple-50 { color: #f5f0ff; }
+.purple-100 { color: #e6d6ff; }
+.purple-200 { color: #d0b4ff; }
+.purple-300 { color: #b894ff; }
+.purple-400 { color: #936eff; } /* Основной (--accent-color) */
+.purple-500 { color: #7a4dff; } /* --accent-hover */
+.purple-600 { color: #6a3dcc; }
+.purple-700 { color: #5a2e99; }
+.purple-800 { color: #4a1f66; }
+.purple-900 { color: #3a1033; }
+
+/* Темная тема с фиолетовыми акцентами */
+.dark-theme {
+  --main-bg-color: #0a0a0a;
+  --secondary-bg-color: #151515;
+  --accent-bg-color: #202020;
+  --text-primary: #ffffff;
+  --text-secondary: #bbbbbb;
+  --accent-color: #a378ff; /* Ярче для темной темы */
+  --hover-overlay: rgba(163, 120, 255, 0.12);
+}
+
+/* Светлая тема с фиолетовыми акцентами (опционально) */
+.light-theme {
+  --main-bg-color: #f8f9fa;
+  --secondary-bg-color: #ffffff;
+  --accent-bg-color: #f1f3f5;
+  --text-primary: #212529;
+  --text-secondary: #495057;
+  --accent-color: #7a4dff;
+  --border-color: #dee2e6;
+  --hover-overlay: rgba(122, 77, 255, 0.08);
+}

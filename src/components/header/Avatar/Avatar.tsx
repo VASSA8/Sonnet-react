@@ -2,10 +2,13 @@ import './avatar.css'
 
 const Avatar = () => {
   return (
-    <div className="avatar">  {}
-      <img src="/path/to/avatar.jpg" alt="Аватар" />
-      {}
-      <span>User</span>
+    <div className="container">
+      <img 
+        src="/avatar-defolt.jpg" 
+        className="avatar-logo"
+        alt="Аватар"
+      />
+      <div className='urName'>Гость</div> 
     </div>
   )
 }

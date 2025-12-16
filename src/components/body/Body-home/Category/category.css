@@ -1,0 +1,20 @@
+@import '../../../../root.css';
+
+.category-container {
+    display: flex;
+}
+
+.category {
+    color: var(--text-primary);
+    padding: 10px;
+    border: 2px solid var(--text-primary);
+    border-radius: var(--radius-xl);
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 10px 0;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
